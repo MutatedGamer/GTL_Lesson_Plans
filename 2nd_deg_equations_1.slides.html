@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+	var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+			link.type = 'text/css';
+				link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+					document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1" />
@@ -13676,7 +13683,8 @@ a.anchor-link {
 \begin{align}
     x^2 - 5x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 25 - 16 = 9 \rightarrow \text{ real, rational}\\
     x^2 - 3x + 1 &amp;= 0 \\
-    x^2 + 4x + 4 &amp;= 0
+    x^2 + 4x + 4 &amp;= 0 \\
+    x^2 + x + 10 &amp;= 0
 \end{align}
 </div>
 </div>
@@ -13688,7 +13696,8 @@ a.anchor-link {
 \begin{align}
     x^2 - 5x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 25 - 16 = 9 \rightarrow \text{ real, rational}\\
     x^2 - 3x + 1 &amp;= 0 &amp;&amp; b^2 - 4ac = 9 - 4 = 5 \rightarrow \text{ real, irrational}\\
-    x^2 + 4x + 4 &amp;= 0
+    x^2 + 4x + 4 &amp;= 0 \\
+    x^2 + x + 10 &amp;= 0
 \end{align}
 </div>
 </div>
@@ -13700,7 +13709,21 @@ a.anchor-link {
 \begin{align}
     x^2 - 5x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 25 - 16 = 9 \rightarrow \text{ real, rational}\\
     x^2 - 3x + 1 &amp;= 0 &amp;&amp; b^2 - 4ac = 9 - 4 = 5 \rightarrow \text{ real, irrational}\\
-    x^2 + 4x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 16 - 16 = 0 \rightarrow \text{ repeated}\\
+    x^2 + 4x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 16 - 16 = 0 \rightarrow \text{ repeated} \\
+    x^2 + x + 10 &amp;= 0
+\end{align}
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Let's-practice!">Let's practice!<a class="anchor-link" href="#Let's-practice!">&#182;</a></h2><p>In groups of three, determine if the roots of each parabola are real, complex, or repeated. If they are real, determine if they are rational or irrational.</p>
+\begin{align}
+    x^2 - 5x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 25 - 16 = 9 \rightarrow \text{ real, rational}\\
+    x^2 - 3x + 1 &amp;= 0 &amp;&amp; b^2 - 4ac = 9 - 4 = 5 \rightarrow \text{ real, irrational}\\
+    x^2 + 4x + 4 &amp;= 0 &amp;&amp; b^2 - 4ac = 16 - 16 = 0 \rightarrow \text{ repeated} \\
+    x^2 + x + 10 &amp;= 0 &amp;&amp; b^2 - 4ac = 1 - 40 = -39 \rightarrow \text{ complex} \\
 \end{align}
 </div>
 </div>
