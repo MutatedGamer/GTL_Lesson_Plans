@@ -5,3 +5,4 @@ Factoring (Classe 1)
 
 Second Degree Equations (Classe 2)
 * [Second Degree Equations Slides 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_1%20slides.pdf)
+* [Second Degree Equations Slides 2](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_2%20slides.pdf)
