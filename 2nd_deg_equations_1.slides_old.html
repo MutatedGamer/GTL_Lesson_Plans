@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+	var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+			link.type = 'text/css';
+				link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+					document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1" />
@@ -13600,7 +13607,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Let's-practice-example-4">Let's practice example 4<a class="anchor-link" href="#Let's-practice-example-4">&#182;</a></h2>\begin{align}
-    x^2 + 1 = 1 \\
+    x^2 + 1 = 0 \\
     x^2 = 0
 \end{align}<p>$a=1$, $b=0$, $c=0$</p>
 \begin{align}
