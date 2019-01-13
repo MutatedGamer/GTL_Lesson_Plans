@@ -1,6 +1,3 @@
-# Lesson Plans for ITE "Enrico Tosi"
-## created by Luke Bordonaro for MIT's GTL program 2019
-
 Factoring (Classe 1)
 * [Factoring Slides 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/Factoring_1%20slides.pdf)
 * [Factoring Slides 2](https://mutatedgamer.github.io/GTL_Lesson_Plans/Factoring_2%20slides.pdf)
