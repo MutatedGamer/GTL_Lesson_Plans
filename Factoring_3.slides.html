@@ -13266,7 +13266,7 @@ a.anchor-link {
 <section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
@@ -13297,7 +13297,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[1]:</div>
+    <div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -13327,15 +13327,38 @@ $( document ).ready(code_toggle);
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Factoring-Part-3">Factoring Part 3<a class="anchor-link" href="#Factoring-Part-3">&#182;</a></h1><p>Let's look at the problem from yesterday</p>
+<h1 id="Factoring-Part-3">Factoring Part 3<a class="anchor-link" href="#Factoring-Part-3">&#182;</a></h1><p>Let's start by trying to simplify the following expression
 \begin{equation}
-    50x + 20x^2 + 2x^3
-\end{equation}<p>How can we factor this?</p>
+    \frac{50x + 20x^2 + 2x^3}{x^3 - 25x}
+\end{equation}</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Factoring-Part-3">Factoring Part 3<a class="anchor-link" href="#Factoring-Part-3">&#182;</a></h1><p>We always begin by factoring out common factors</p>
 \begin{align}
-    2x(25 + 10x + x^2) \\
-    2x(x^2 + 10x + 25) \\
-    2x(x+5)^2
+    \frac{50x + 20x^2 + 2x^3}{x^3 - 25x} &amp;= \frac{2x\left(25 + 10x + x^2\right)}{x\left(x^2 - 25\right)} \\ \\
+                                         &amp;= \frac{2x(x+5)^2}{x(x+5)(x-5)} \\ \\
+                                         &amp; \rightarrow \frac{2(x+5)}{(x-5)}
 \end{align}
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Question:-True-or-False:">Question: <span style="color: green">True</span> or <span style="color: red">False</span>:<a class="anchor-link" href="#Question:-True-or-False:">&#182;</a></h2>$$\frac{50x + 20x^2 + 2x^3}{x^3 - 25x} = \frac{2(x+5)}{(x-5)}$$
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Question:-True-or-False:">Question: <span style="color: green">True</span> or <span style="color: red">False</span>:<a class="anchor-link" href="#Question:-True-or-False:">&#182;</a></h2>$$\frac{50x + 20x^2 + 2x^3}{x^3 - 25x} = \frac{2(x+5)}{(x-5)}$$<p><span style="color: red">False</span>! For example, if $x=0$ we get $$\frac{0}{0} \neq \frac{10}{-5}$$</p>
+
 </div>
 </div>
 </div></section></section><section><section>
@@ -13459,6 +13482,25 @@ $( document ).ready(code_toggle);
 \end{equation}
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="An-Example">An Example<a class="anchor-link" href="#An-Example">&#182;</a></h2>\begin{equation}
+    ax^2 + bx + c
+\end{equation}<p>For example, if we have $$x^2 + 7x - 30$$ then we list all the facotrs of $-30$ as</p>
+\begin{align}
+    -30 &amp;= 1 \cdot -30 &amp; 1 - 30 = -29\\
+    -30 &amp;= -1 \cdot 30 &amp; -1 + 30 = 29\\
+    -30 &amp;= 2 \cdot -15 &amp; 2 - 15 = -13\\
+    -30 &amp;= -2 \cdot 15 &amp; -2 + 15 = 13\\
+    -30 &amp;= 3 \cdot -10 &amp; 3 - 10 = -7
+\end{align}$$\boxed{\begin{align}
+    -30 &amp;= -3 \cdot 10 &amp; -3 + 10 = 7
+\end{align}}$$<p>Thus, $$\boxed{x^2 + 7x - 30 = (x-3)(x+7)}$$</p>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13489,14 +13531,15 @@ $( document ).ready(code_toggle);
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Some-trivia">Some trivia<a class="anchor-link" href="#Some-trivia">&#182;</a></h2><p><span style="color: green">True</span> or <span style="color: red">False</span>: we can always factor an expression $x^2 + cx + d$ into the product of $(x \pm a)(x \pm b)$, for integers $a, b, c, d$.</p>
+<h2 id="Some-trivia">Some trivia<a class="anchor-link" href="#Some-trivia">&#182;</a></h2><p><span style="color: green">True</span> or <span style="color: red">False</span>: we can always factor an expression $x^2 + bx + c$ into the product of $(x \pm i)(x \pm j)$, for integers $b, c, i, j$.</p>
 
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Some-trivia">Some trivia<a class="anchor-link" href="#Some-trivia">&#182;</a></h2><p><span style="color: green">True</span> or <span style="color: red">False</span>: we can always factor an expression $x^2 + bx + c$ into the product of $(x \pm i)(x \pm j)$, for integers $b, c, i, j$.</p>
 <p><strong><span style="color: red">False</span></strong>. What if the factors of $ab$ do not add up to $c$? For example,</p>
 \begin{equation}
     x^2 + 10x + 7
@@ -13504,7 +13547,7 @@ $( document ).ready(code_toggle);
 
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13512,15 +13555,16 @@ $( document ).ready(code_toggle);
 
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Some-trivia">Some trivia<a class="anchor-link" href="#Some-trivia">&#182;</a></h2><p><span style="color: green">True</span> or <span style="color: red">False</span>: The special products we saw yesterday, $(x \pm a)(x \pm a)$ are just a specific case of what we learned today.</p>
 <p><strong><span style="color: green">True</span></strong>. If you get really good at factoring, there's no need to memorize the special products. But, for  large numbers, recognizing special products is <strong><em>much</em></strong> faster than today's method.</p>
 
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13598,8 +13642,8 @@ $( document ).ready(code_toggle);
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Wrapping-Up">Wrapping Up<a class="anchor-link" href="#Wrapping-Up">&#182;</a></h2><p>If we have an expression that looks like</p>
-$$y = x^2 + bx + c$$<p>We can factor this into</p>
-$$y = (x \pm i)(x \pm j)$$<p>where</p>
+$$x^2 + bx + c$$<p>We can factor this into</p>
+$$(x \pm i)(x \pm j)$$<p>where</p>
 \begin{align}
     c = (i)(j) &amp;&amp; b = i + j
 \end{align}<p>We should also remember the <em>special products</em> we saw last time and factoring by looking for the <em>common factor</em> we saw two lessons ago.</p>
