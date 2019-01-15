@@ -97,7 +97,7 @@ Release the phone and let the pendulum oscillate several times. Afterwards, stop
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.2]{graph.png}
-    \caption{How to start recording}
+    \caption{An example graph}
     \label{fig:my_label}
 \end{figure}
 
@@ -117,7 +117,7 @@ The period is how long it takes to complete one complete cycle. We can calculate
 \end{figure}
 
 \begin{equation}
-	\text{Period} = T = 1.9\text{s} - 1.0\text{s} = 0.9\text{s}
+	\text{Period} = T = 2.4\text{s} - 1.2\text{s} = 1.2\text{s}
 \end{equation}
 
 
@@ -142,9 +142,9 @@ Something we have control over is how long we make the string. Now that we under
 \begin{tabular}{|l@{\hspace{3em}}|l@{\hspace{2em}}|l@{\hspace{2em}}|l@{\hspace{2em}}|l@{\hspace{2em}}|}
 \hline
 length & trial $1$ period & trial period $2$ & trial period $3$ & average period \\ \hline
-    &           &           &           &                \\ \hline
-    &           &           &           &                \\ \hline
-    &           &           &           &                \\ \hline
+10cm    &           &           &           &                \\ \hline
+20cm  &           &           &           &                \\ \hline
+40cm    &           &           &           &                \\ \hline
 \end{tabular}
 \end{table}
 
@@ -153,8 +153,12 @@ Make a plot of average period vs. length. What kind of relationship do you see?
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}
-      \draw[->] (0,0) -- node[below] {$l$} (6,0);
-      \draw[->] (0,0) -- node[left] {$T$} (0,6);
+      \draw[->] (0,0) node[below] {$0$cm} -- node[below] {$l$} (10,0) node[right, below]{$50$cm};
+      \draw[->] (0,0) node[left] {$0$s} -- node[left] {$T$} (0,10);
+      \foreach \x in {2, 4, 6, 8, 10}
+      {	\draw[dashed] (\x,0) -- (\x,10);
+	      \draw[dashed] (0, \x) -- (10, \x);
+      }
 \end{tikzpicture}
 \end{figure}
 

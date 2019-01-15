@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  15 JAN 2019 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  15 JAN 2019 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,42 +719,43 @@ File: start.png Graphic file (type png)
 <use start.png>
 Package pdftex.def Info: start.png used on input line 77.
 (pdftex.def)             Requested size: 134.50217pt x 109.40848pt.
- <graph.png, id=54, 1445.4pt x 1003.75pt>
+ <graph.png, id=54, 1445.4pt x 966.61125pt>
 File: graph.png Graphic file (type png)
  <use graph.png>
 Package pdftex.def Info: graph.png used on input line 99.
-(pdftex.def)             Requested size: 289.07487pt x 200.74644pt.
+(pdftex.def)             Requested size: 289.07487pt x 193.31882pt.
 
-[2 <./start.png>] <t_start.png, id=64, 1445.4pt x 979.66pt>
+[2 <./start.png>] <t_start.png, id=64, 1445.4pt x 966.61125pt>
 File: t_start.png Graphic file (type png)
- <use t_start.png>
-Package pdftex.def Info: t_start.png used on input line 113.
-(pdftex.def)             Requested size: 199.16928pt x 134.98395pt.
 
-<t_end.png, id=65, 1445.4pt x 983.675pt>
+<use t_start.png>
+Package pdftex.def Info: t_start.png used on input line 113.
+(pdftex.def)             Requested size: 199.16928pt x 133.186pt.
+ <t_end.png, id=65, 1445.4pt x 967.615pt>
 File: t_end.png Graphic file (type png)
  <use t_end.png>
 Package pdftex.def Info: t_end.png used on input line 115.
-(pdftex.def)             Requested size: 199.16928pt x 135.53716pt.
+(pdftex.def)             Requested size: 199.16928pt x 133.32431pt.
 \0 g 0 G10tikzsymbols@savebox@dSmiley1yellow=\box44
- [3 <./graph.png> <./t_start.png> <./t_end.png>] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+
+[3 <./graph.png> <./t_start.png> <./t_end.png>] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 896DAE9C9671725BDB90E388330DE4AB;315.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
  19239 strings out of 493029
  375843 string characters out of 6136233
- 469092 words of memory out of 5000000
+ 469086 words of memory out of 5000000
  22420 multiletter control sequences out of 15000+600000
  8754 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -768,7 +769,7 @@ fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 375875 bytes).
+Output written on main.pdf (4 pages, 385032 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
