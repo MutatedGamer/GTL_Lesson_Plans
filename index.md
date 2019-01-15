@@ -10,3 +10,6 @@ Second Degree Equations (Classe 2)
 
 Limits (Classe 3)
 * [Limits Slides 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/limits_1%20slides.pdf)
+
+Physics (Classe 1)
+* [Lesson 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/physics_1/main.pdf")
