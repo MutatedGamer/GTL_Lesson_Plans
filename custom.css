@@ -14,3 +14,11 @@ td { font-size: 1.2em!important;
 .input_prompt {
 	display: none!important;
 }
+
+.rendered_html ul {
+	margin-top: 0!important;
+}
+
+.rendered_html ol {
+	margin-top: 0!important;
+}
