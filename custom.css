@@ -1,0 +1,16 @@
+th { font-size: 1.5em!important;
+		text-align: center!important;
+} 
+
+td { font-size: 1.2em!important; 
+		text-align: center!important;
+		padding: 5px!important;
+}
+
+.input {
+	display: none!important;
+}
+
+.input_prompt {
+	display: none!important;
+}
