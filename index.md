@@ -16,3 +16,4 @@ Limits (Classe 3)
 
 Physics (Classe 1)
 * [Lesson 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/physics_1/main.pdf)
+* [Lesson 2](https://mutatedgamer.github.io/GTL_Lesson_Plans/physics%20day%202%20slides.pdf)
