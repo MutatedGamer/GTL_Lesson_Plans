@@ -8,6 +8,7 @@ Second Degree Equations (Classe 2)
 * [Second Degree Equations Slides 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_1%20slides.pdf)
 * [Second Degree Equations Slides 2](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_2%20slides.pdf)
 * [Second Degree Equations Slides 3](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_3%20slides.pdf)
+* [Second Degree Equations Slides 4](https://mutatedgamer.github.io/GTL_Lesson_Plans/2nd_deg_equations_4%20slides.pdf)
 
 Limits (Classe 3)
 * [Limits Slides 1](https://mutatedgamer.github.io/GTL_Lesson_Plans/limits_1%20slides.pdf)
